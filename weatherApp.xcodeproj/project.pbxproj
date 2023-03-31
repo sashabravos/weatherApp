@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0370603729D2021300EAAFEB /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370603629D2021300EAAFEB /* WeatherModel.swift */; };
+		0370603929D7357000EAAFEB /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370603829D7357000EAAFEB /* WeatherView.swift */; };
 		03762DFE29CA0BC10050064F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03762DFD29CA0BC10050064F /* AppDelegate.swift */; };
 		03762E0029CA0BC10050064F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03762DFF29CA0BC10050064F /* SceneDelegate.swift */; };
 		03762E0229CA0BC10050064F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03762E0129CA0BC10050064F /* WeatherViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		0370603629D2021300EAAFEB /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		0370603829D7357000EAAFEB /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		03762DFA29CA0BC10050064F /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03762DFD29CA0BC10050064F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03762DFF29CA0BC10050064F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				03762E1229CA0E6C0050064F /* UIViewCreator.swift */,
+				0370603829D7357000EAAFEB /* WeatherView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				03762DFE29CA0BC10050064F /* AppDelegate.swift in Sources */,
 				03762E1E29D0AFA70050064F /* WeatherData.swift in Sources */,
 				03762E0029CA0BC10050064F /* SceneDelegate.swift in Sources */,
+				0370603929D7357000EAAFEB /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
